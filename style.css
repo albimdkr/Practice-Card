@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html, body  {
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.container {
+    /* padding: 20px; */
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    box-shadow: 1px -2px 180px -6px rgba(0,0,0,0.41);
+-webkit-box-shadow: 1px -2px 180px -6px rgba(0,0,0,0.41);
+-moz-box-shadow: 1px -2px 180px -6px rgba(0,0,0,0.41);
+}
+
+/* .container:hover {
+    box-shadow: 1px -2px 137px -39px rgba(0,0,0,0.52);
+-webkit-box-shadow: 1px -2px 137px -39px rgba(0,0,0,0.52);
+-moz-box-shadow: 1px -2px 137px -39px rgba(0,0,0,0.52);
+} */
+
+.btn-nav {
+    margin-top: -20px;
+}
+
+.btn-container {
+    height: 25px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgba( 255, 255, 255, 0.35 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+}
+
+.btn-1 {
+    background-color: rgb(255, 69, 58);
+    width: 15px;
+    margin-right: 10px;
+    height: 15px;
+    border-radius: 50px;
+    float: left;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn-2 {
+    background-color: rgb(255, 204, 0);
+    width: 15px;
+    margin-right: 10px;
+    height: 15px;
+    border-radius: 50px;
+    float: left;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn-3 {
+    background-color: rgb(52, 199, 89);
+    width: 15px;
+    margin-right: 10px;
+    height: 15px;
+    border-radius: 50px;
+    float: left;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.img-container {
+    margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container-name {
+    text-align: center;
+    line-height: 0.10;
+}
+
+.paragraf {
+    margin-bottom: 20px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    margin: auto;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-center {
+    background: #007aff;
+    width: 150px;
+    margin: -27px auto;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-radius: 40px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.btn-center:hover {
+    /* transform: scale(1.2,2); */
+    background-color: yellowgreen;
+    /* -webkit-transform: scale(1.2,2);
+    -moz-transform: scale(1.2,2);
+    -ms-transform: scale(1.2,2);
+    -o-transform: scale(1.2,2); */
+}
+
+
+.btn-me {
+    margin: auto;
+    text-decoration: none;
+}
+
+
+.container-icon {
+    background-color: #ACACAC;
+    margin:  auto;
+    padding: 25px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa {
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px !important;
+    width: 30px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+.fa-twitter:hover {
+    background: #0095eb;
+}
+
+.fa-github {
+    background: #000000;
+    color: white;
+  }
+  
+.fa-github:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background-color: #000000;
+    color: #ffff;
+}
+
+.fa-linkedin:hover {
+    background: #3B5998;
+}
+
+.fa-gitlab {
+    background-color: #000000;
+    color: #ffff;
+}
+
+.fa-gitlab:hover{
+    background: #e24329;
+}
